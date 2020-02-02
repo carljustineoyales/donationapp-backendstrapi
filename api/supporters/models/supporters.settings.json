@@ -33,6 +33,13 @@
       "type": "string",
       "required": false,
       "unique": true
+    },
+    "payerID": {
+      "type": "string",
+      "unique": false
+    },
+    "orderID": {
+      "type": "string"
     }
   }
 }
