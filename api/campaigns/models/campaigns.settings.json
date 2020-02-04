@@ -49,14 +49,17 @@
       "unique": false
     },
     "supporters": {
-      "via": "campaigns",
-      "collection": "supporters"
+      "collection": "supporters",
+      "via": "campaigns"
     },
     "image": {
       "collection": "file",
       "via": "related",
       "plugin": "upload",
       "required": false
+    },
+    "currency": {
+      "type": "string"
     }
   }
 }

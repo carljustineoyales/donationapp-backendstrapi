@@ -21,8 +21,8 @@
       "type": "email"
     },
     "campaigns": {
-      "collection": "campaigns",
       "via": "supporters",
+      "collection": "campaigns",
       "dominant": true
     },
     "anonymous": {
