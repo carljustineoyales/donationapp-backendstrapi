@@ -60,6 +60,10 @@
     },
     "currency": {
       "type": "string"
+    },
+    "requested": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
