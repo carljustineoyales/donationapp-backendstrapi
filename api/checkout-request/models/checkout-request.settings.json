@@ -31,7 +31,12 @@
       "type": "email"
     },
     "campaign_id": {
-      "type": "biginteger"
+      "type": "biginteger",
+      "unique": true
+    },
+    "username": {
+      "type": "string",
+      "unique": true
     }
   }
 }
