@@ -54,8 +54,8 @@
       "configurable": false
     },
     "campaigns": {
-      "via": "author",
-      "collection": "campaigns"
+      "collection": "campaigns",
+      "via": "author"
     },
     "first_name": {
       "type": "string",
@@ -87,6 +87,12 @@
       "type": "email"
     },
     "gcash_number": {
+      "type": "string"
+    },
+    "bank_name": {
+      "type": "string"
+    },
+    "bank_account": {
       "type": "string"
     }
   }
