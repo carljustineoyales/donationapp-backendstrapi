@@ -94,6 +94,10 @@
     },
     "bank_account": {
       "type": "string"
+    },
+    "done": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

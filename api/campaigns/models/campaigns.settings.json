@@ -64,6 +64,10 @@
     "requested": {
       "type": "boolean",
       "default": false
+    },
+    "done": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
