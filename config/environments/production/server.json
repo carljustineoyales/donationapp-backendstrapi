@@ -3,7 +3,10 @@
   "port": "${process.env.PORT || 1337}",
   "production": true,
   "proxy": {
-    "enabled": false
+    "enabled": false,
+    "ssl": true,
+    "host": "https://radiant-hollows-04485.herokuapp.com/",
+    "port": "${process.env.PORT || 1337}"
   },
   "cron": {
     "enabled": false

@@ -1,0 +1,30 @@
+{
+  "connection": "default",
+  "collectionName": "sessions",
+  "info": {
+    "name": "session"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "jwt": {
+      "type": "text",
+      "unique": true
+    },
+    "username": {
+      "type": "text"
+    },
+    "role": {
+      "type": "text"
+    },
+    "user_id": {
+      "type": "text"
+    },
+    "done": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
