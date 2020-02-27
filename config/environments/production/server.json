@@ -5,8 +5,8 @@
   "proxy": {
     "enabled": true,
     "ssl": true,
-    "host": "https://radiant-hollows-04485.herokuapp.com/",
-    "port": "${process.env.PORT || 1337}"
+    "host": "radiant-hollows-04485.herokuapp.com",
+    "port": 443
   },
   "cron": {
     "enabled": false
