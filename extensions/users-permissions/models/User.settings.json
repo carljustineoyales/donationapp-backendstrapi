@@ -54,8 +54,8 @@
       "configurable": false
     },
     "campaigns": {
-      "collection": "campaigns",
-      "via": "author"
+      "via": "author",
+      "collection": "campaigns"
     },
     "first_name": {
       "type": "string",

@@ -40,9 +40,9 @@
       "required": false
     },
     "author": {
-      "via": "campaigns",
       "plugin": "users-permissions",
-      "model": "user"
+      "model": "user",
+      "via": "campaigns"
     },
     "reference": {
       "type": "biginteger",
@@ -53,7 +53,7 @@
       "via": "campaigns"
     },
     "image": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "plugin": "upload",
       "required": false
