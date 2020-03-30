@@ -9,22 +9,23 @@
     "timestamps": true
   },
   "attributes": {
-    "username": {
-      "type": "string",
-      "minLength": 3,
-      "unique": true,
-      "configurable": false,
-      "required": true
-    },
     "email": {
       "type": "email",
       "minLength": 6,
       "configurable": false,
       "required": true
     },
+    "username": {
+      "type": "string",
+      "minLength": 3,
+      "unique": false,
+      "configurable": true,
+      "required": true
+    },
+    
     "provider": {
       "type": "string",
-      "configurable": false
+      "configurable": true
     },
     "password": {
       "type": "password",
